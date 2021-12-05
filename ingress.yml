@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: ingress-ord
+  name: ingress-msord
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
