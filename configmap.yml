@@ -4,4 +4,4 @@ metadata:
   name: map.orders
   namespace: default 
 data:
-  APP_ARGS: "http://ms-payments-svc.svc http://172.17.0.2:8080 http://172.17.0.2:8080"
+  APP_ARGS: "http://ms-payments-svc.svc http://ms-shipping-svc.svc http://172.17.0.2:8080"
