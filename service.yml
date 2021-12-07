@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: ms-orders-svc
-  labels:
-     app: ms-orders
+  namespace: default
 spec:
   type: NodePort
-  ports:
-  - port: 8080
-    nodePort: 30005
-    protocol: TCP
   selector:
-     app: ms-orders
+    app: ms-orders
+  ports:
+  - protocol: TCP
+    port: 30005
+    targetPort: 8080
+    name: default
