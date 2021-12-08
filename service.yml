@@ -4,7 +4,6 @@ metadata:
   name: ms-orders-svc
   namespace: default
 spec:
-  spec:
   type: ClusterIP
   selector:
     app: ms-orders
