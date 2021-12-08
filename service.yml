@@ -4,11 +4,12 @@ metadata:
   name: ms-orders-svc
   namespace: default
 spec:
-  type: NodePort
+  spec:
+  type: ClusterIP
   selector:
     app: ms-orders
   ports:
   - protocol: TCP
-    port: 30005
+    port: 8080
     targetPort: 8080
     name: default
