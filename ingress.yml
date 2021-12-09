@@ -13,4 +13,4 @@ spec:
         pathType: Prefix
         backend:
           serviceName: ms-orders-svc
-          servicePort: 30005
+          servicePort: 8080
