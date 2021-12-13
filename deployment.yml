@@ -16,7 +16,7 @@ spec:
         app: ms-orders
     spec:
       containers:
-        - image: 794892305647.dkr.ecr.us-east-1.amazonaws.com/orders-service:4_test
+        - image: 794892305647.dkr.ecr.us-east-1.amazonaws.com/orders-service:9_test
           name: orders-service
           ports:
             - containerPort: 8080
